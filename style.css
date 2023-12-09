@@ -111,3 +111,60 @@ body{
 .error{
     display: none;
 }
+
+@media only screen and (max-width:460px) {
+    .search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search button{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 340px)
+{
+    .search button{
+        width: 40px;
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .search input{
+        margin: 0px 0px -20px;
+    }
+
+    .weather-icon{
+        width: 110px;
+    }
+
+    .weather .city{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .weather .temp{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .col p{
+        font-size: 15px;
+    }
+
+    div p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .col{
+        margin: 0 15px;
+    }
+}
